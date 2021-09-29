@@ -291,6 +291,31 @@ body {
 .command-list-element:nth-child(4n) {
   margin-right: 0;
 }
+/* -------------CLIENT SECTION------------ */
+.client-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.klient-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.client-list {
+  display: flex;
+  justify-content: space-between;
+}
+.client-list-element {
+  display: block;
+  margin-right: 30px;
+}
+.client-list-element:nth-child(6n) {
+  margin-right: 0;
+}
 /* --------ФУТЕР---------- */
 
 .footer {
@@ -443,6 +468,7 @@ body {
 .click:nth-child(5n) {
   margin-right: 0;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
