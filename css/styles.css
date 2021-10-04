@@ -128,12 +128,11 @@ body {
   color: var(--accent-color);
 }
 .contact-icon {
-  width: 16px;
-  height: 12px;
   fill: #757575;
   margin-right: 10px;
   align-items: center;
   justify-content: center;
+  fill: currentColor;
 }
 /*------------ HERO----------- */
 .hero {
